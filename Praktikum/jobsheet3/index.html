@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIMPUS-Mini | Beranda</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <style>
+        /* === Bagian yang diubah warnanya === */
+        header {
+            background-color: #4CAF50; /* Ubah: hijau */
+            color: white;
+            padding: 10px;
+        }
+        nav a {
+            color: white; /* Ubah: link jadi putih */
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #ffeb3b; /* Ubah: saat hover jadi kuning */
+        }
+        footer {
+            background-color: #f1f1f1; /* Ubah: abu-abu muda */
+            text-align: center;
+            font-size: 0.9em;
+            color: #333; /* Ubah: teks abu-abu gelap */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SIMPUS-Mini</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="buku/list.html">Daftar Buku</a></li>
+                <li><a href="buku/tambah.html">Tambah Buku</a></li>
+                <li><a href="anggota/list.html">Daftar Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Selamat Datang di Sistem Perpustakaan Mini</h2>
+            <p>Aplikasi sederhana untuk mengelola data buku dan anggota perpustakaan.</p>
+        </section>
+
+        <section>
+            <h2>Ringkasan</h2>
+            <article>
+                <h3>Total Buku</h3>
+                <p>12</p>
+            </article>
+            <article>
+                <h3>Total Anggota</h3>
+                <p>8</p>
+            </article>
+            <article>
+                <h3>Sedang Dipinjam</h3>
+                <p>3</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet 3</p>
+    </footer>
+</body>
+</html>

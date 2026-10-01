@@ -1,0 +1,21 @@
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; /* efek hover di menu navbar */
+}
+
+.nav-link.active {
+    color: #d9e8f5 !important;
+}
+
+form button[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #164869 !important;
+}
+
+
+
+
